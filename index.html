@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
-    <link href="css/styles.css" rel="stylesheet" >
+    <link href="/css/styles.css" rel="stylesheet" >
+    <link  href="/script/script.js"rel="stylesheet">
 </head>
 
 <body>
@@ -13,33 +14,25 @@
         <h1>Encriptador de Texto-Alura One</h1>
         <img src="/img/Logo.svg" alt="logo" class="logo">
     </header>
-    <main>
+    <main class="contenido_principal">
         <section class="seccion1">
             <div class="textoIngresado">
-                <textarea name="texto" id="msj_texto" cols="50" rows="30"> ingrese texto aqui</textarea>
-                <script>
-                    function encriptar(){
-
-                    }
-                </script>
+                <textarea name="texto" id="texto_ingresado" cols="50" rows="30"> ingrese texto aqui</textarea>
+               
             </div>
+            <button class="boton_encriptar">Encriptar</button>
         </section>
+
         <section class="seccion2">
             <div class="textoEncriptado">
                 <textarea name="mensaje_encriptado" id="msj_encriptado" cols="50" rows="30">texto encriptado</textarea>
-                <script>
-                    function desencriptar(){
-                        
-                    }
-                </script>
+                <img src="/img/munieco.png" alt="munieco" class="img_munieco">
             </div>
+            <button class="boton_copiar">Copiar</button>
+            <button class="boton_desencriptar">Desencriptar</button>
         </section> 
     </main>
-    <footer>
-        <button class="boton_encriptar">Encriptar</button>
-        <button class="boton_desencriptar">Desencriptar</button>
-        <button class="boton_copiar">Copiar</button>
-    </footer>
+   
    
     <p>katherine zuñiga</p>
 </body>

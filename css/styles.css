@@ -2,11 +2,14 @@ h1{
     text-align: center;
 }
 body{
-flex-direction: row-reverse;
+    background-color:#f4f4f4fc;
 }
-#msj_texto{
+.contenido_principal{
 
+    display: flex;
+    justify-content: space-between;
 }
-#msj_encriptado{
 
+.boton_copiar{
+    margin-top: 20px;
 }
